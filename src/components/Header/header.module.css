@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  border-bottom: 1px solid #eaeaea;
+  gap: 30px;
+}
+
+.nav > * {
+  max-width: 33%;
+  width: 100%;
+}
+
+.logoTitle {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}

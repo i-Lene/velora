@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@zeit/next-less": "^1.0.1",
+    "embla-carousel-react": "^8.5.2",
+    "less": "^2.7.3",
+    "next": "15.1.5",
+    "next-less": "^1.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "sass": "^1.83.4"
   },
   "devDependencies": {
     "postcss": "^8",
