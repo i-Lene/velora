@@ -101,3 +101,66 @@ body > * {
 main {
   margin-bottom: 200px;
 }
+
+.modal {
+  width: calc(100% - 32px);
+  max-width: 500px;
+  border-radius: 12px;
+  min-height: 430px;
+  position: relative;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 500px;
+}
+
+.modal h2 {
+  font-weight: 600;
+  font-size: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+}
+
+.btn-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.emptyCart {
+  text-align: center;
+}
+
+.modal .item-pic {
+  max-width: 60px;
+}
+
+.minicart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.minicart-item:not(:last-of-type) {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.remove-prod-btn {
+  color: rgb(165, 59, 59);
+}
+
+.goTo {
+  margin-top: 25px;
+}
+
+.modal-inner-wrapper {
+  max-height: 499px;
+  overflow: auto;
+  margin-right: 20px;
+  scrollbar-width: thin;
+}
