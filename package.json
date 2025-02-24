@@ -17,6 +17,7 @@
     "@zeit/next-less": "^1.0.1",
     "embla-carousel-react": "^8.5.2",
     "less": "^2.7.3",
+    "motion": "^12.4.7",
     "next": "15.1.5",
     "next-less": "^1.1.0",
     "react": "^19.0.0",

@@ -164,3 +164,46 @@ main {
   margin-right: 20px;
   scrollbar-width: thin;
 }
+
+.about-us {
+  position: relative;
+}
+
+.about-us-image {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.about-us-title {
+  font-size: 56px;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 43%;
+  z-index: 99;
+}
+
+.moto {
+  font-size: 30px;
+  text-align: center;
+}
+
+.about-us-content {
+  display: grid;
+  column-gap: 1%;
+  row-gap: 6%;
+  margin-top: 80px;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: center;
+}
+
+.about-us-content .box {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
